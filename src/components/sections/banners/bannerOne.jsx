@@ -59,9 +59,9 @@ const BannerOne = () => {
                     <div className="col-lg-6">
                         <div className="banner-content">
                             <div className="title">
-                                <p>Helping Your Business Flourish with Omni Digital Solutions</p> {/* Intro text */}
+                                <p>Get Your Business Flourish with </p> {/* Intro text */}
                                 <h1 id="typewriter">{text}</h1> {/* Typewriter effect */}
-                                <p>We’re dedicated to delivering Expert web and app development that sparks innovation. Our SEO strategies are tailored to enhance your online presence and boost organic traffic. Through high-converting paid advertising campaigns, we aim to help you scale your business effectively.</p>
+                             
                             </div>
                             <div className="banner-button d-flex align-items-center">
                                 <Link className="demo text-decoration-none" to="/contact">Request a Free Consultation Today!</Link>

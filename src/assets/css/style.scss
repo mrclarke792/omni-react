@@ -1127,7 +1127,11 @@ Hero Area Style
     font-size: 40px; /* Adjust the size as needed */
     font-weight: bold; /* Optional: customize the weight */
     color:#B8860B; /* Optional: text color */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow */
+    display: inline-block; /* Inline-block to allow smooth animations */
 }
+
 .hero-area {
     z-index: 1;
     position: relative;
@@ -5252,4 +5256,120 @@ Back to Top Style
 
 .popup-youtube{
     cursor: pointer;
+}
+@media (max-width: 600px) {
+    #typewriter {
+        font-size: 6vw; /* Increase font size slightly on small screens */
+    }
+}
+@media (max-width: 768px) {
+    .single-testimonial-card {
+        padding: 15px; /* Adjust padding for mobile */
+    }
+
+    .testimonial-user {
+        flex-direction: column; /* Stack the user and rating vertically */
+        align-items: flex-start; /* Align items to start */
+    }
+
+    .user .image img {
+        width: 50px; /* Smaller image size on mobile */
+        height: 50px;
+    }
+
+    .user .content h3 {
+        font-size: 16px; /* Adjust text size for mobile */
+    }
+
+    .user .content span {
+        font-size: 12px; /* Adjust role text size */
+    }
+
+    .star-icon {
+        margin-top: 10px; /* Spacing for star rating */
+    }
+
+    p {
+        font-size: 14px; /* Adjust paragraph text for readability */
+    }
+}
+
+@media (max-width: 480px) {
+    .user .image img {
+        width: 40px; /* Further reduce image size on very small screens */
+        height: 40px;
+    }
+
+    .user .content h3 {
+        font-size: 14px; /* Further adjust text size */
+    }
+
+    .user .content span {
+        font-size: 11px; /* Adjust role text size for small screens */
+    }
+
+    p {
+        font-size: 13px; /* Smaller text for compact mobile screens */
+    }
+
+    .single-testimonial-card {
+        padding: 10px; /* Further reduce padding */
+        margin: 5px 0; /* Reduce margin to avoid cramped look */
+    }
+}
+
+/* Additional responsive tweaks */
+@media (max-width: 320px) {
+    .user .image img {
+        width: 55px; /* Reduce image size for extra small screens */
+        height: 55px;
+    }
+
+    .user .content h3 {
+        font-size: 12px; /* Further reduce text size */
+    }
+
+    .user .content span {
+        font-size: 10px; /* Adjust role text size */
+    }
+
+    p {
+        font-size: 12px; /* Further reduce paragraph text size */
+    }
+
+    .single-testimonial-card {
+        padding: 8px; /* Reduce padding for extra small screens */
+        margin: 4px 0; /* Reduce margin */
+    }
+}
+@media (max-width: 768px) {
+    .single-pricing-card {
+        padding: 15px; /* Reduced padding for smaller devices */
+    }
+
+    .single-pricing-card h1 {
+        font-size: 20px; /* Adjust font size for mobile */
+    }
+
+    .single-pricing-card h3 {
+        font-size: 18px; /* Adjust title font size */
+    }
+
+    .list {
+        font-size: 14px; /* Adjust feature text size */
+    }
+}
+
+@media (max-width: 480px) {
+    .single-pricing-card h1 {
+        font-size: 18px; /* Further reduce price font size */
+    }
+
+    .category-toggle-buttons {
+        flex-direction: column; /* Stack buttons vertically */
+    }
+
+    .pricing-currency-toggle {
+        font-size: 14px; /* Smaller text for very small screens */
+    }
 }

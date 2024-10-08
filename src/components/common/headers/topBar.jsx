@@ -10,7 +10,7 @@ const TopBar = () => {
                             <ul className="list-unstyled ps-0 mb-0 list">
                                 <li>
                                     <i className="ri-home-5-line"></i>
-                                    "Omni Digital Solutions – Your All-in-One Partner for Web Development, SEO, and Digital Marketing. <strong>Need a hand?</strong> <a href="#"> Let’s have a chat</a>
+                                    Your All-in-One Digital Partner. 
                                 </li>
                             </ul>
                         </div>
@@ -20,7 +20,7 @@ const TopBar = () => {
                             <ul className="list-unstyled ps-0 mb-0 list">
                                 <li className="d-inline-block">
                                     <i className="ri-map-pin-line"></i>
-                                    Based in the UK, we proudly serve businesses across the globe.
+                                   Proudly serve businesses across the globe.
                                 </li>
                                 <li className="d-inline-block">
                                     <i className="ri-mail-open-line"></i>
