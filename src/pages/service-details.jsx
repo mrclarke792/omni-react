@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion"
 
 import ServiceCardFour from '../components/sections/services/serviceCardFour'
-import service_bg from "../assets/images/services/services-5.jpg"
+import service_image from "../assets/images/services/services-5.jpg"
 import SideBar from '../components/sections/sideBar'
 import PageTitle from '../components/common/pageTitle'
 import { ScrollRestoration } from 'react-router-dom'
@@ -36,7 +36,7 @@ const ServiceDetails = () => {
                   variants={zoomIn(1)}
                   viewport={{ once: true, amount: 0 }}
                 >
-                  <img src={service_bg} alt="services-image" />
+                  <img src={service_image} alt="services-image" />
                 </motion.div>
 
                 <div className="processing">

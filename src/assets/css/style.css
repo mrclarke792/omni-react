@@ -3650,7 +3650,7 @@ Solutions Area Style
 Page Title Area Style
 ===========================================*/
 .page-title-area {
-  background-color: #f7ffff;
+  background-color: rgb(39, 43, 58);
   padding-top: 105px;
   padding-bottom: 105px;
 }
