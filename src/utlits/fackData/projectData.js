@@ -7,36 +7,36 @@ import projectImg_5 from "../../assets/images/projects/projects-5.jpg";
 export const projectData = [
     {
         id: 1,
-        project_name: "Custom E-commerce Platform Development",
-        details: "Designed and developed a bespoke e-commerce solution tailored to client needs, incorporating payment gateways, user-friendly interfaces, and robust inventory management.",
+        project_name: "Roofing Company Website Development",
+        details: "Built a responsive website on WordPress for a roofing company, incorporating SEO strategies and paid ads to enhance online visibility and lead generation.",
         src: projectImg_1,
         cta: "Discover More" // Added call to action for consistency
     },
     {
         id: 2,
-        project_name: "SEO Strategy for Local Business",
-        details: "Executed a comprehensive SEO strategy for a local business, resulting in a 50% increase in organic traffic within three months through keyword optimisation and local listings.",
+        project_name: "Number Surity Dental Agency",
+        details: "Developed a dental agency website using React.js and Bootstrap, implementing SEO services to improve search engine rankings and patient engagement.",
         src: projectImg_2,
         cta: "Discover More" // Added call to action for consistency
     },
     {
         id: 3,
-        project_name: "Responsive Web App for Service Booking",
-        details: "Developed a fully responsive web application allowing users to book services online, enhancing user engagement and streamlining the booking process for the client.",
+        project_name: "Queens Beauty Clinic",
+        details: "Created a visually appealing e-commerce website for Queens Beauty Clinic using Shopify, including integrated SEO services for enhanced online reach.",
         src: projectImg_3,
         cta: "Discover More" // Added call to action for consistency
     },
     {
         id: 4,
-        project_name: "Digital Marketing Automation",
-        details: "Implemented an automated digital marketing system that improved lead generation and customer engagement, integrating various platforms for seamless communication.",
+        project_name: "Yenique Aesthetics",
+        details: "Built a professional website for Yenique Aesthetics using HTML, CSS, and JavaScript, with a focus on SEO services to attract more clients.",
         src: projectImg_4,
         cta: "Discover More" // Added call to action for consistency
     },
     {
         id: 5,
-        project_name: "Website Redesign for Enhanced UX",
-        details: "Revamped an outdated website with a modern design and improved UX/UI, significantly reducing bounce rates and increasing user retention.",
+        project_name: "Trademan Directory",
+        details: "Developed a directory platform for tradesmen using React.js, offering SEO services and paid ad campaigns for business automation and increased visibility.",
         src: projectImg_5,
         cta: "Discover More" // Added call to action for consistency
     },
